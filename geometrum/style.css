@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Play fair";
+    src: url('font/playfair/PlayfairDisplaySC-Bold.otf');
+}
+
+@font-face {
+    font-family: "Play fair reguler";
+    src: url('font/playfair/PlayfairDisplay-Regular.otf');
+}
+
+@font-face {
+    font-family: "Play fair italic";
+    src: url('font/playfair/PlayfairDisplay-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: "gotham";
+    src: url('font/gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: "gotham narrow";
+    src: url('font/gotham/GothamNarrow-Book.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background-color: #797a83;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+
+.card {
+    height: 95%;
+    background-color: transparent;
+    box-sizing: content-box;
+    border: none;
+}
+
+.card .container {
+    height: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    box-sizing: content-box;
+    border-radius: 5px;
+    box-shadow: -8px 10px 10px rgba(64, 64, 65, 0.3);
+
+}
+
+
+
+
+.sidebar {
+    font-family: gotham;
+    color: #f5efef;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebar .title {
+    color: #e0ada9;
+}
+
+.sidebar .menu {
+    font-size: 0.5rem;
+    font-family: 'gotham narrow';
+}
+
+.sidebar .socmed {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.sidebar .socmed a {
+    color: #e0ada9;
+    font-size: 1.5rem;
+}
+
+.sidebar .socmed a:hover {
+    text-decoration: none;
+}
+
+.main {
+    overflow: hidden;
+    padding: 0;
+    background-color: #f5efef;
+    height: 100%;
+}
+
+.main .nav-link {
+    color: #36384a;
+    font-family: 'Play fair';
+    text-transform: uppercase;
+}
+
+.main .nav-link:last-child {
+    font-size: 10pt;
+    color: #36384a;
+    font-family: 'gotham';
+    text-transform: uppercase;
+}
+
+.main .content {
+    font-family: 'Play fair reguler';
+    height: 65% !important;
+    /* overflow: hidden; */
+}
+
+.main .content p {
+    font-size: 10pt;
+
+}
+
+.main .content h1 {
+    font-family: 'Play fair';
+    font-size: 45pt;
+}
+
+.main .content h6 {
+    font-family: 'Play fair italic';
+    text-transform: capitalize;
+}
+
+.main .content .photo {
+    height: 55%;
+
+}
+
+.main .content .photo .col {
+    /* box-shadow: -1px 1px .5px #36384a; */
+}
+
+.main .content .photo #img1 {
+    background-image: url(img/1.jpg);
+    background-size: cover
+}
+
+.main .content .photo #img2 {
+    background-image: url(img/2.jpg);
+    background-size: cover;
+}
+
+.main .content .photo #img3 {
+    background-image: url(img/3.jpg);
+    background-size: cover;
+}
+
+.slide {
+    height: 100%;
+}
+
+.slide .carousel-inner {
+    height: 100%;
+}
+
+.slide .carousel-inner .carousel-item {
+    height: 100%;
+}
+
+.slide .carousel-inner .carousel-item img {
+    height: 100%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -10%;
+    left: -85%;
+}
+
+
+
+
+.carousel-indicators li {
+    background: #36384a;
+    margin-left: 0;
+    margin-right: 0;
+    opacity: .9;
+    height: 2px !important;
+    border: 5px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.carousel-indicators .active {
+    height: 6px !important;
+    width: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+    background: #252733;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button p {
+    background: #36384a;
+    padding: 5px 10px;
+    font-family: 'gotham'
+}
+
+.button p:hover {
+    background: white;
+    border: 1px solid #36384a;
+    color: #36384a !important;
+    font-weight: bold
+}
